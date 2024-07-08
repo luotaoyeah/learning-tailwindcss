@@ -2,7 +2,7 @@
     "name": "@luotao/learning-tailwindcss",
     "version": "1.0.0",
     "scripts": {
-        "postcss": "postcss ./src/index.css -o ./dist/index.css"
+        "postcss": "postcss ./src/index.css -o ./dist/index.css --watch"
     },
     "dependencies": {
         "autoprefixer": "10.4.19",
